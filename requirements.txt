@@ -1,0 +1,25 @@
+# Document Classifier Requirements - Python 3.12 Compatible
+# Install with: pip install -r requirements.txt
+
+# IMPORTANT: Install these first
+setuptools>=65.5.1
+wheel>=0.38.0
+
+# Core Dependencies
+langgraph==0.2.34
+google-generativeai==0.8.3
+
+# OCR - PaddleOCR (Python 3.12 compatible)
+paddlepaddle==3.0.0b1
+paddleocr==2.8.1
+
+# Image Processing
+Pillow==10.3.0
+opencv-python==4.10.0.84
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# PDF Generation (for test documents)
+reportlab==4.2.0
