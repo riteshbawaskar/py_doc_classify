@@ -9,6 +9,16 @@ wheel>=0.38.0
 langgraph==0.2.34
 google-generativeai==0.8.3
 
+# UI Framework
+streamlit==1.28.1
+
+# Data Processing
+pandas>=1.5.0
+
+# Database ORM
+sqlmodel==0.0.14
+sqlalchemy==2.0.23
+
 # OCR - PaddleOCR (Python 3.12 compatible)
 paddlepaddle==3.0.0b1
 paddleocr==2.8.1
